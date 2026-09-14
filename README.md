@@ -9,6 +9,22 @@
 
 [English](#english) · [Русский](#русский)
 
+## Open-source contributions
+
+| Project / area | Change | Status |
+| --- | --- | --- |
+| **Hermes Agent · Slack** | Preserved allowed bot posts and Slack Canvas mentions through message filtering. | [Follow-up merged](https://github.com/liuhao1024/hermes-agent/pull/13) · [Upstream review](https://github.com/NousResearch/hermes-agent/pull/110780) |
+| **Hermes Agent · MoA** | Fixed overflowing cadence values and non-finite temperatures in configuration. | [PR under review](https://github.com/NousResearch/hermes-agent/pull/110802) · [128 tests passed](https://github.com/teo-nex/hermes-agent/actions/runs/34839167333) |
+
+*Statuses checked on 14 September 2026.*
+
+## Engineering notes
+
+**[A passing filter test can still miss a routing regression](notes/slack-routing-tests.md)**  
+A Hermes Agent case study: an assertion that could never fail, two dropped message types, and a 12-case test of the adapter's routing behavior.
+
+---
+
 ## English
 
 I research artificial intelligence and Web3, build experimental AI projects, and develop applications for **Even G2** smart glasses. My focus is on new ways to interact with technology, from intelligent tools to augmented reality interfaces.
