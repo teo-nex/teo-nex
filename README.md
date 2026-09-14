@@ -43,10 +43,16 @@ For me, research is the starting point for creating something new. I'm intereste
 
 | Project / area | Change | Status |
 | --- | --- | --- |
-| **Hermes Agent · Slack** | Preserved allowed bot posts and Slack Canvas mentions through message filtering. | [Follow-up merged](https://github.com/liuhao1024/hermes-agent/pull/13) · [Upstream review](https://github.com/NousResearch/hermes-agent/pull/110780) |
-| **Hermes Agent · MoA** | Fixed overflowing cadence values and non-finite temperatures in configuration. | [PR under review](https://github.com/NousResearch/hermes-agent/pull/110802) · [128 tests passed](https://github.com/teo-nex/hermes-agent/actions/runs/34839167333) |
+| **Hermes Agent · Slack** | Preserved allowed bot posts and Slack Canvas mentions through message filtering. | [Merged into PR branch](https://github.com/liuhao1024/hermes-agent/pull/13) · [Upstream PR open](https://github.com/NousResearch/hermes-agent/pull/110780) |
+| **Hermes Agent · MoA** | Fixed overflowing cadence values and non-finite temperatures in configuration. | [Open PR](https://github.com/NousResearch/hermes-agent/pull/110802) · [128 tests passed](https://github.com/teo-nex/hermes-agent/actions/runs/34839167333) |
+| **Hermes Agent · File tools** | Fixed UTF-16 pagination line counts and preserved blank lines. | [Open PR](https://github.com/NousResearch/hermes-agent/pull/110880) |
+| **Hermes Agent · CLI** | Restored Bash completion when a profile selector precedes the command. | [Open PR](https://github.com/NousResearch/hermes-agent/pull/110881) |
+| **CanvasTTY · Agent orchestration** | Added a native Codex control CLI and orchestration skill with YOLO support. | [Open PR](https://github.com/howdeploy/CanvasTTY/pull/32) |
+| **CanvasTTY · Browser tools** | Replaced misleading empty browser results with an actionable viewport error. | [Open PR](https://github.com/howdeploy/CanvasTTY/pull/33) |
+| **CanvasTTY · Parallel agents** | Added independent browser cards and per-agent ownership for parallel work. | [Open PR](https://github.com/howdeploy/CanvasTTY/pull/34) |
+| **Pi · Prompt templates** | Prepared a tested fix that preserves literal arguments in prompt templates. | [Proposal submitted](https://github.com/earendil-works/pi/issues/9588) · [Prepared fix](https://github.com/teo-nex/pi/commit/8ca829a21fee2e47417c9c0ad0908eb17c924b1c) |
 
-*Statuses checked on 14 September 2026.*
+*Statuses checked on 14 September 2026. Pi's proposal is auto-closed pending maintainer review.*
 
 ## Engineering notes
 
