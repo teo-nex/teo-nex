@@ -39,6 +39,23 @@ For me, research is the starting point for creating something new. I'm intereste
 
 ---
 
+## Stack & tools
+
+<p>
+  <a href="https://github.com/microsoft/TypeScript"><img src="assets/stack/typescript.svg" height="32" alt="TypeScript" /></a>
+  <a href="https://github.com/python/cpython"><img src="assets/stack/python.svg" height="32" alt="Python" /></a>
+  <a href="https://react.dev/"><img src="assets/stack/react.svg" height="32" alt="React" /></a>
+  <a href="https://github.com/nodejs/node"><img src="assets/stack/node.svg" height="32" alt="Node.js" /></a>
+  <a href="https://github.com/electron/electron"><img src="assets/stack/electron.svg" height="32" alt="Electron" /></a>
+</p>
+
+<p>
+  <a href="https://github.com/openai/codex"><img src="assets/stack/codex.svg" height="32" alt="Codex" /></a>
+  <a href="https://github.com/earendil-works/pi"><img src="assets/stack/pi.svg" height="32" alt="Pi" /></a>
+  <a href="https://github.com/NousResearch/hermes-agent"><img src="assets/stack/hermes.svg" height="32" alt="Hermes" /></a>
+  <a href="https://github.com/howdeploy/CanvasTTY"><img src="assets/stack/canvastty.svg" height="32" alt="CanvasTTY" /></a>
+</p>
+
 ## Open-source contributions
 
 | Project / area | Change | Status |

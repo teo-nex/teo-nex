@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="32" viewBox="0 0 56 32" role="img" aria-label="Pi">
+  <title>Pi</title>
+  <path d="M4 .5H52L55.5 4V28L52 31.5H4L.5 28V4Z" fill="#111214" stroke="#34373c"/>
+  <path d="M5 1H22M1 5V12" fill="none" stroke="#969ca5" stroke-width="1"/>
+  <path d="M11 13h5v5h-5z" fill="#969ca5"/>
+  <text x="25" y="20.5" fill="#e1e2e5" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13">Pi</text>
+</svg>
