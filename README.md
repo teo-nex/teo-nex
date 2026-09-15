@@ -56,7 +56,7 @@ For me, research is the starting point for creating something new. I'm intereste
 
 Adapted CanvasTTY for Even G2 glasses: terminal and AI-agent control through the glasses HUD, voice dictation with local Nemotron speech recognition, session creation, and six-digit local pairing. The integration includes CanvasTTY's desktop controls and the Even G2 companion app.
 
-**Status:** companion v0.5.6 submitted for Even Hub review · **669 tests passed** (622 desktop + 47 companion) · Upstream publication pending moderation.
+**Status:** [Open PR #50](https://github.com/howdeploy/CanvasTTY/pull/50) · [697 tests passed](https://github.com/howdeploy/CanvasTTY/actions/runs/34990681074/job/104454211022) (650 desktop + 47 companion) · Companion v0.5.6 submitted for Even Hub review.
 
 *Statuses checked on 15 September 2026. Pi's proposal is auto-closed pending maintainer review.*
 
