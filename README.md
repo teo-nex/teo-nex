@@ -9,11 +9,18 @@
 
 [English](#english) · [Русский](#русский)
 
+<p>
+  <a href="https://nexcoreai.ru"><img src="assets/buttons/nexcore-ru.svg" height="32" alt="NEXCORE · RU" /></a>
+  <a href="https://nexcoreai.pro"><img src="assets/buttons/nexcore-en.svg" height="32" alt="NEXCORE · EN" /></a>
+</p>
+
 ## English
 
 I research artificial intelligence and Web3, build experimental AI projects, and develop applications for **Even G2** smart glasses. My focus is on new ways to interact with technology, from intelligent tools to augmented reality interfaces.
 
 For me, research is the starting point for creating something new. I'm interested in taking promising ideas through purposeful experimentation and turning concepts into practical solutions.
+
+My main focus is AI automation for businesses: document workflows, CRM integrations, and agent systems. I also have experience in systems administration, hardware, and product design. I've followed the crypto industry for around five years, including one year working in the field professionally.
 
 ### Focus
 
@@ -29,6 +36,8 @@ For me, research is the starting point for creating something new. I'm intereste
 Исследую искусственный интеллект и Web3, развиваю экспериментальные AI-проекты и разрабатываю приложения для умных очков **Even G2**. Мой фокус — новые сценарии взаимодействия с технологиями: от интеллектуальных инструментов до интерфейсов дополненной реальности.
 
 Для меня исследование — это отправная точка для создания нового. Меня интересует путь от перспективной идеи к осмысленному эксперименту и решениям, которые могут выйти за пределы концепции.
+
+Основное направление моей работы — AI-автоматизация для бизнеса: документооборот, интеграции с CRM и агентские системы. Также есть опыт системного администрирования, работы с железом и дизайна продуктов. За криптоиндустрией слежу около пяти лет, один год работал в ней профессионально.
 
 ### В фокусе
 
