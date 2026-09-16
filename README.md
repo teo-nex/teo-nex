@@ -12,6 +12,8 @@
 <p>
   <a href="https://nexcoreai.ru"><img src="assets/buttons/nexcore-ru.svg" height="32" alt="NEXCORE · RU" /></a>
   <a href="https://nexcoreai.pro"><img src="assets/buttons/nexcore-en.svg" height="32" alt="NEXCORE · EN" /></a>
+  <a href="https://t.me/Teo_Nex"><img src="assets/buttons/telegram.svg" height="32" alt="Telegram · @Teo_Nex" /></a>
+  <a href="https://x.com/TeoNexcore"><img src="assets/buttons/x.svg" height="32" alt="X · @TeoNexcore" /></a>
 </p>
 
 ## English
