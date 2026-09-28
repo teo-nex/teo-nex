@@ -71,9 +71,17 @@ My main focus is AI automation for businesses: document workflows, CRM integrati
 
 | Project / area | Change | Status |
 | --- | --- | --- |
-| **Hermes Agent** | Bug fixes across CLI, file tools, MCP, schema validation, streaming and gateway behavior. | [18 submitted PRs](https://github.com/pulls?q=is%3Apr%20author%3Ateo-nex%20repo%3ANousResearch%2Fhermes-agent) as of 24 Sep 2026 · [Slack](https://github.com/NousResearch/hermes-agent/pull/111411), [MoA](https://github.com/NousResearch/hermes-agent/pull/111355) and [cron](https://github.com/NousResearch/hermes-agent/pull/120314) fixes incorporated upstream |
-| **CanvasTTY · Agent orchestration** | Added a native Codex control CLI and orchestration skill with YOLO support. | [Merged upstream](https://github.com/howdeploy/CanvasTTY/pull/32) |
-| **CanvasTTY · Browser tools** | Replaced misleading empty browser results with an actionable viewport error. | [Merged upstream](https://github.com/howdeploy/CanvasTTY/pull/33) |
+| **Hermes Agent** | Fixes across CLI, file tools, MCP, schema validation, streaming, gateway and Desktop. | [19 submitted PRs](https://github.com/pulls?q=is%3Apr+author%3Ateo-nex+repo%3ANousResearch%2Fhermes-agent) as of 29 Sep 2026 · [Slack](https://github.com/NousResearch/hermes-agent/pull/111411), [MoA](https://github.com/NousResearch/hermes-agent/pull/111355), [cron](https://github.com/NousResearch/hermes-agent/pull/120314) and [Desktop](https://github.com/NousResearch/hermes-agent/pull/126182) work incorporated upstream |
+| **CanvasTTY** | Even G2 integration, native Codex orchestration and per-card conversation restore, plus browser, canvas, settings and device-safety fixes. | [10 merged PRs](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ateo-nex+repo%3Ahowdeploy%2FCanvasTTY) as of 29 Sep 2026 · [Even G2 #50](https://github.com/howdeploy/CanvasTTY/pull/50), [orchestration #32](https://github.com/howdeploy/CanvasTTY/pull/32), [Codex restore #80](https://github.com/howdeploy/CanvasTTY/pull/80) |
+
+<details>
+<summary>CanvasTTY · all 10 merged PRs</summary>
+
+- **Agent control:** [Codex orchestration CLI and skill #32](https://github.com/howdeploy/CanvasTTY/pull/32); [per-card Codex conversation restore #80](https://github.com/howdeploy/CanvasTTY/pull/80).
+- **Even G2:** [full glasses integration #50](https://github.com/howdeploy/CanvasTTY/pull/50); [device-scoped transport keys #54](https://github.com/howdeploy/CanvasTTY/pull/54); [explicit answer-capture grant #55](https://github.com/howdeploy/CanvasTTY/pull/55); [local-network settings layout #56](https://github.com/howdeploy/CanvasTTY/pull/56).
+- **Desktop reliability:** [browser viewport errors #33](https://github.com/howdeploy/CanvasTTY/pull/33); [settings write safety #58](https://github.com/howdeploy/CanvasTTY/pull/58); [sticky-note scrolling #59](https://github.com/howdeploy/CanvasTTY/pull/59); [near-Home terminal placement #76](https://github.com/howdeploy/CanvasTTY/pull/76).
+
+</details>
 
 **CanvasTTY × Even G2 — full adaptation for smart glasses**
 
@@ -81,6 +89,13 @@ Adapted CanvasTTY for Even G2 glasses: terminal and AI-agent control through the
 
 **Status:** [Merged upstream in PR #50](https://github.com/howdeploy/CanvasTTY/pull/50) · [697 tests passed](https://github.com/howdeploy/CanvasTTY/actions/runs/34990681074/job/104454211022) (650 desktop + 47 companion) · Companion app approved for Even Hub.
 
+## Selected projects
+
+| Project | What it does | Stage |
+| --- | --- | --- |
+| [NEXCORE Markets](https://github.com/teo-nex/NEXCORE-Markets) | Crypto and US-stock watchlists and charts for Even G2 and phone, based on [ARNLTony's MIT Crypto Ticker](https://github.com/ARNLTony/even-g2-crypto-ticker). | Source beta 0.4.5 |
+| [NEXCORE Focus](https://github.com/teo-nex/nexcore-focus) | Tasks, a focus timer and local Russian/English dictation for Even G2. | Source beta 0.1.3 |
+| [Jev Agent-First Install Kit](https://github.com/teo-nex/jew-codex-harness) | Agent-led Codex installer with guarded routing and cross-platform smoke checks. | Alpha; live first-install acceptance pending |
 
 ## Engineering notes
 
