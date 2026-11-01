@@ -106,6 +106,8 @@ Operator-defined provider/account order and model maps, reasoning profiles, priv
 
 New Jev work: [guarded coding workers #6](https://github.com/teo-nex/jew-codex-harness/pull/6), [30-minute idle compaction #10](https://github.com/teo-nex/jew-codex-harness/pull/10) and [manifest-bound worker authorization #11](https://github.com/teo-nex/jew-codex-harness/pull/11).
 
+Recent installation fixes: [Python discovery and installation on restricted/localized Windows hosts](https://github.com/teo-nex/jew-codex-harness/commit/7720d773e2804bd25599b19a66bc5755bbf594c4), plus [reloading the owned idle router after registering Jev](https://github.com/teo-nex/jew-codex-harness/commit/a8f17b151f72e799a1c2365df388dade9dd9db7f) so a fresh installation can route the newly advertised model.
+
 ## Selected projects
 
 | Project | What it does | Stage |
@@ -113,11 +115,6 @@ New Jev work: [guarded coding workers #6](https://github.com/teo-nex/jew-codex-h
 | [NEXCORE Markets](https://github.com/teo-nex/NEXCORE-Markets) | Crypto and US-stock watchlists and charts for Even G2 and phone, based on [ARNLTony's MIT Crypto Ticker](https://github.com/ARNLTony/even-g2-crypto-ticker). | Source beta 0.4.5 |
 | [NEXCORE Focus](https://github.com/teo-nex/nexcore-focus) | Tasks, a focus timer and local Russian/English dictation for Even G2. | Source beta 0.1.3 |
 | [Jev Agent-First Install Kit](https://github.com/teo-nex/jew-codex-harness) | Agent-led Codex installer with configurable provider/model order, reasoning profiles and guarded recovery. | Public alpha; live-provider acceptance pending |
-
-## Engineering notes
-
-**[A passing filter test can still miss a routing regression](notes/slack-routing-tests.md)**  
-A Hermes Agent case study: an assertion that could never fail, two dropped message types, and a 12-case test of the adapter's routing behavior.
 
 <br />
 
