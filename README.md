@@ -112,9 +112,9 @@ Recent installation fixes: [Python discovery and installation on restricted/loca
 
 | Project | What it does | Stage |
 | --- | --- | --- |
-| [NEXCORE Markets](https://github.com/teo-nex/NEXCORE-Markets) | Crypto and US-stock watchlists and charts for Even G2 and phone, based on [ARNLTony's MIT Crypto Ticker](https://github.com/ARNLTony/even-g2-crypto-ticker). | Source beta 0.4.5 |
-| [NEXCORE Focus](https://github.com/teo-nex/nexcore-focus) | Tasks, a focus timer and local Russian/English dictation for Even G2. | Source beta 0.1.3 |
-| [Jev Agent-First Install Kit](https://github.com/teo-nex/jew-codex-harness) | Agent-led Codex installer with configurable provider/model order, reasoning profiles and guarded recovery. | Public alpha; live-provider acceptance pending |
+| [Canvas](https://github.com/howdeploy/CanvasTTY) | An infinite desktop for AI agents, with terminal orchestration and Even G2 smart-glasses integration. | Open source |
+| [Jew-codex-harness](https://github.com/teo-nex/jew-codex-harness) | Agent-led Codex installer with configurable provider/model order, reasoning profiles and guarded recovery. | Public alpha; live-provider acceptance pending |
+| Sky | AI coding harness focused on reducing token usage and development time. | In closed beta |
 
 <br />
 
