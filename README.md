@@ -5,9 +5,9 @@
 
 # Teo | Nexcore
 
-**Web3 & AI Enthusiast · AR Developer · Independent Research**
+**AI agents · AR interfaces · Independent research**
 
-[English](#english) · [Русский](#русский)
+[Selected Projects](#selected-projects) · [Open Source](#open-source-contributions) · [English](#english) · [Русский](#русский)
 
 <p>
   <a href="https://nexcoreai.ru"><img src="assets/buttons/nexcore-ru.svg" height="32" alt="NEXCORE · RU" /></a>
@@ -16,39 +16,69 @@
   <a href="https://x.com/TeoNexcore"><img src="assets/buttons/x.svg" height="32" alt="X · @TeoNexcore" /></a>
 </p>
 
+## Selected Projects
+
+| Project | What I work on | Role / stage |
+| --- | --- | --- |
+| [**TeoBench**](https://github.com/teo-nex/TeoBench) | Open model-reasoning benchmark with a 30-task Easy tier, [regraded community studies](https://github.com/teo-nex/TeoBench/tree/main/Easy-Bench/studies) and a separate [unverified report archive](https://github.com/teo-nex/TeoBench/tree/main/Easy-Bench/reports). | Maintainer · Open source |
+| [**Jev**](https://github.com/teo-nex/jew-codex-harness) | Configurable model and reasoning routing for Codex, guarded coding workers and model-independent idle compaction. | Maintainer · Public alpha |
+| [**CanvasTTY**](https://github.com/howdeploy/CanvasTTY) | Even G2 smart-glasses integration, CanvasLink Android LAN control and native Codex orchestration for an AI-agent desktop. | Contributor · Merged upstream |
+| **Sky** | Experimental AI coding harness focused on token efficiency and development workflows. | Closed beta |
+
+<details>
+<summary>More projects · Even G2 apps & CanvasTTY tools</summary>
+
+- [**NEXCORE Focus**](https://github.com/teo-nex/nexcore-focus) — tasks, focus timers and local Russian/English dictation for Even G2 and its phone companion. Source beta; installed-device dictation checks remain open. Based in part on [My Pomodoro](https://github.com/tarumzu/my-pomodoro-even-g2).
+- [**NEXCORE Ticker**](https://github.com/teo-nex/NEXCORE-Markets) — shared crypto/US-stock watchlists and charts for phone and Even G2. Local beta, built on [Crypto Ticker](https://github.com/ARNLTony/even-g2-crypto-ticker) with original attribution preserved.
+- [**Canvas Player**](https://github.com/teo-nex/canvastty-plugin-player) — a CanvasTTY integration of the existing music.deploychan.webcam player, opened as a canvas card beside terminals. Original player and media credits are preserved.
+- [**CanvasTTY design kit**](https://github.com/teo-nex/CanvasTTY-design-for-agents) — an agent-readable guide and reference kit for creating installable pixel themes.
+
+</details>
+
+## Open-source contributions
+
+### CanvasTTY
+
+[**15 merged PRs**](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ateo-nex+repo%3Ahowdeploy%2FCanvasTTY) spanning agent control, smart glasses, Android and desktop reliability.
+
+- **Even G2** — terminal output and AI-agent control through the glasses HUD, local voice dictation, session creation and local pairing. [Merged #50](https://github.com/howdeploy/CanvasTTY/pull/50).
+- **CanvasLink** — the original Android/desktop integration for streamed window video, touch control, terminal input and encrypted local pairing. [Merged #166](https://github.com/howdeploy/CanvasTTY/pull/166); the maintainer's [integration #168](https://github.com/howdeploy/CanvasTTY/pull/168) credits that work and documents subsequent UI, networking and release changes. [Earlier community alpha](https://github.com/teo-nex/CanvasLink).
+- **Agent workflow & reliability** — [Codex orchestration #32](https://github.com/howdeploy/CanvasTTY/pull/32), [conversation restore #80](https://github.com/howdeploy/CanvasTTY/pull/80), [pixel themes #98](https://github.com/howdeploy/CanvasTTY/pull/98), [macOS PTY fixes #140](https://github.com/howdeploy/CanvasTTY/pull/140) and [terminal lifecycle #171](https://github.com/howdeploy/CanvasTTY/pull/171).
+
+<details>
+<summary>CanvasTTY · all 15 merged PRs</summary>
+
+- **Agent control:** [Codex orchestration CLI and skill #32](https://github.com/howdeploy/CanvasTTY/pull/32); [per-card Codex conversation restore #80](https://github.com/howdeploy/CanvasTTY/pull/80).
+- **Even G2:** [full glasses integration #50](https://github.com/howdeploy/CanvasTTY/pull/50); [device-scoped transport keys #54](https://github.com/howdeploy/CanvasTTY/pull/54); [explicit answer-capture grant #55](https://github.com/howdeploy/CanvasTTY/pull/55); [local-network settings layout #56](https://github.com/howdeploy/CanvasTTY/pull/56).
+- **Desktop reliability:** [browser viewport errors #33](https://github.com/howdeploy/CanvasTTY/pull/33); [settings write safety #58](https://github.com/howdeploy/CanvasTTY/pull/58); [sticky-note scrolling #59](https://github.com/howdeploy/CanvasTTY/pull/59); [near-Home terminal placement #76](https://github.com/howdeploy/CanvasTTY/pull/76).
+- **Terminal presentation:** [pixel terminal skins and agent theme packs #98](https://github.com/howdeploy/CanvasTTY/pull/98).
+- **Browser zoom:** [native viewport and input coordinates at non-default UI zoom #165](https://github.com/howdeploy/CanvasTTY/pull/165).
+- **macOS:** [PTY descriptor leak fix #140](https://github.com/howdeploy/CanvasTTY/pull/140); [terminal lifecycle, resilient shutdown, compressed usage history and report layout #171](https://github.com/howdeploy/CanvasTTY/pull/171).
+- **Android:** [CanvasLink LAN window control #166](https://github.com/howdeploy/CanvasTTY/pull/166).
+
+</details>
+
+### Hermes Agent
+
+[**21 submitted PRs**](https://github.com/pulls?q=is%3Apr+author%3Ateo-nex+repo%3ANousResearch%2Fhermes-agent) covering CLI behavior, file tools, MCP, schema validation, streaming, gateway and Desktop state.
+
+Work incorporated upstream through maintainer-authored PRs, with attribution: [Slack bot posts and canvas mentions #111411](https://github.com/NousResearch/hermes-agent/pull/111411), [MoA numeric settings #111355](https://github.com/NousResearch/hermes-agent/pull/111355), [cron DST handling #120314](https://github.com/NousResearch/hermes-agent/pull/120314) and [connection-scoped Desktop tabs #126182](https://github.com/NousResearch/hermes-agent/pull/126182).
+
+Open work includes [checkpoint safety #139480](https://github.com/NousResearch/hermes-agent/pull/139480) and [profile-scoped plugin discovery #139484](https://github.com/NousResearch/hermes-agent/pull/139484).
+
+<sub>PR counts checked on 5 Nov 2026. Submitted PRs, authored merges and maintainer-integrated work are credited separately.</sub>
+
 ## English
 
-I research artificial intelligence and Web3, build experimental AI projects, and develop applications for **Even G2** smart glasses. My focus is on new ways to interact with technology, from intelligent tools to augmented reality interfaces.
+I build AI-agent tools, research artificial intelligence and Web3, and develop applications for **Even G2** smart glasses. My current work spans model routing, reproducible reasoning benchmarks and interfaces that connect agents with everyday devices.
 
-For me, research is the starting point for creating something new. I'm interested in taking promising ideas through purposeful experimentation and turning concepts into practical solutions.
-
-My main focus is AI automation for businesses: document workflows, CRM integrations, and agent systems. I also have experience in systems administration, hardware, and product design. I've followed the crypto industry for around five years, including one year working in the field professionally.
-
-### Focus
-
-- **AI Research** — research, experiments, and projects in artificial intelligence.
-- **AR Development** — applications for **Even G2** smart glasses and augmented reality interfaces.
-- **Web3** — decentralized technologies and how they intersect with AI.
-- **Emerging Tech** — new directions, unconventional hypotheses, and promising ideas.
-
----
+My main focus is AI automation for businesses: document workflows, CRM integrations and agent systems. My background also includes systems administration, hardware and product design.
 
 ## Русский
 
-Исследую искусственный интеллект и Web3, развиваю экспериментальные AI-проекты и разрабатываю приложения для умных очков **Even G2**. Мой фокус — новые сценарии взаимодействия с технологиями: от интеллектуальных инструментов до интерфейсов дополненной реальности.
+Создаю инструменты для AI-агентов, исследую искусственный интеллект и Web3, разрабатываю приложения для умных очков **Even G2**. Сейчас работаю над маршрутизацией моделей, воспроизводимыми бенчмарками рассуждений и интерфейсами, которые связывают агентов с повседневными устройствами.
 
-Для меня исследование — это отправная точка для создания нового. Меня интересует путь от перспективной идеи к осмысленному эксперименту и решениям, которые могут выйти за пределы концепции.
-
-Основное направление моей работы — AI-автоматизация для бизнеса: документооборот, интеграции с CRM и агентские системы. Также есть опыт системного администрирования, работы с железом и дизайна продуктов. За криптоиндустрией слежу около пяти лет, один год работал в ней профессионально.
-
-### В фокусе
-
-- **AI Research** — исследования, эксперименты и проекты в сфере искусственного интеллекта.
-- **AR Development** — разработка приложений для умных очков **Even G2** и работа с интерфейсами дополненной реальности.
-- **Web3** — децентрализованные технологии и возможности их пересечения с AI.
-- **Emerging Tech** — новые направления, нестандартные гипотезы и поиск перспективных идей.
-
----
+Основное направление — AI-автоматизация для бизнеса: документооборот, интеграции с CRM и агентские системы. Также есть опыт системного администрирования, работы с железом и дизайна продуктов.
 
 ## Stack & tools
 
@@ -66,55 +96,6 @@ My main focus is AI automation for businesses: document workflows, CRM integrati
   <a href="https://github.com/NousResearch/hermes-agent"><img src="assets/stack/hermes.svg" height="32" alt="Hermes" /></a>
   <a href="https://github.com/howdeploy/CanvasTTY"><img src="assets/stack/canvastty.svg" height="32" alt="CanvasTTY" /></a>
 </p>
-
-## Open-source contributions
-
-| Project / area | Change | Status |
-| --- | --- | --- |
-| **Hermes Agent** | Fixes across CLI, file tools, MCP, schema validation, streaming, gateway and Desktop, plus [checkpoint safety #139480](https://github.com/NousResearch/hermes-agent/pull/139480) and [profile-scoped plugin discovery #139484](https://github.com/NousResearch/hermes-agent/pull/139484). | [21 submitted PRs](https://github.com/pulls?q=is%3Apr+author%3Ateo-nex+repo%3ANousResearch%2Fhermes-agent) as of 1 Nov 2026 · [Slack](https://github.com/NousResearch/hermes-agent/pull/111411), [MoA](https://github.com/NousResearch/hermes-agent/pull/111355), [cron](https://github.com/NousResearch/hermes-agent/pull/120314) and [Desktop](https://github.com/NousResearch/hermes-agent/pull/126182) work incorporated upstream |
-| **CanvasTTY** | Even G2 integration, native Codex orchestration, per-card conversation restore and pixel terminal themes, plus browser, canvas, settings and device-safety fixes, Android LAN control and macOS PTY/lifecycle improvements. | [15 merged PRs](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ateo-nex+repo%3Ahowdeploy%2FCanvasTTY) as of 1 Nov 2026 · [Even G2 #50](https://github.com/howdeploy/CanvasTTY/pull/50), [orchestration #32](https://github.com/howdeploy/CanvasTTY/pull/32), [Codex restore #80](https://github.com/howdeploy/CanvasTTY/pull/80), [themes #98](https://github.com/howdeploy/CanvasTTY/pull/98) |
-| [**Jev Agent-First Install Kit**](https://github.com/teo-nex/jew-codex-harness) | Maintainer: agent-first Codex installation, model/reasoning routing and guarded provider recovery, plus guarded coding workers and model-independent idle compaction. | [Source on main](https://github.com/teo-nex/jew-codex-harness/commits/main) · Public alpha; live-provider acceptance pending |
-
-<details>
-<summary>CanvasTTY · all 15 merged PRs</summary>
-
-- **Agent control:** [Codex orchestration CLI and skill #32](https://github.com/howdeploy/CanvasTTY/pull/32); [per-card Codex conversation restore #80](https://github.com/howdeploy/CanvasTTY/pull/80).
-- **Even G2:** [full glasses integration #50](https://github.com/howdeploy/CanvasTTY/pull/50); [device-scoped transport keys #54](https://github.com/howdeploy/CanvasTTY/pull/54); [explicit answer-capture grant #55](https://github.com/howdeploy/CanvasTTY/pull/55); [local-network settings layout #56](https://github.com/howdeploy/CanvasTTY/pull/56).
-- **Desktop reliability:** [browser viewport errors #33](https://github.com/howdeploy/CanvasTTY/pull/33); [settings write safety #58](https://github.com/howdeploy/CanvasTTY/pull/58); [sticky-note scrolling #59](https://github.com/howdeploy/CanvasTTY/pull/59); [near-Home terminal placement #76](https://github.com/howdeploy/CanvasTTY/pull/76).
-- **Terminal presentation:** [pixel terminal skins and agent theme packs #98](https://github.com/howdeploy/CanvasTTY/pull/98).
-- **Browser zoom:** [native viewport and input coordinates at non-default UI zoom #165](https://github.com/howdeploy/CanvasTTY/pull/165).
-- **macOS:** [PTY descriptor leak fix #140](https://github.com/howdeploy/CanvasTTY/pull/140); [terminal lifecycle, resilient shutdown, compressed usage history and report layout #171](https://github.com/howdeploy/CanvasTTY/pull/171).
-- **Android:** [CanvasLink LAN window control #166](https://github.com/howdeploy/CanvasTTY/pull/166).
-
-</details>
-
-**CanvasTTY × Even G2 — full adaptation for smart glasses**
-
-Adapted CanvasTTY for Even G2 glasses: terminal and AI-agent control through the glasses HUD, voice dictation with local Nemotron speech recognition, session creation, and six-digit local pairing. The integration includes CanvasTTY's desktop controls and the Even G2 companion app.
-
-**Status:** [Merged upstream in PR #50](https://github.com/howdeploy/CanvasTTY/pull/50) · [697 tests passed](https://github.com/howdeploy/CanvasTTY/actions/runs/34990681074/job/104454211022) (650 desktop + 47 companion) · Companion app approved for Even Hub.
-
-**CanvasLink — Android LAN control for CanvasTTY**
-
-Built the original Android and desktop integration for streamed window video, touch/pan/zoom, direct terminal text input, one-time pairing and encrypted signalling. [Merged upstream in PR #166](https://github.com/howdeploy/CanvasTTY/pull/166); the maintainer's [integration PR #168](https://github.com/howdeploy/CanvasTTY/pull/168) credits the original implementation and documents subsequent UI, networking and release work. The [community APK repository](https://github.com/teo-nex/CanvasLink) preserves the earlier alpha distribution and its provenance.
-
-**Jev — configurable Codex routing**
-
-Operator-defined provider/account order and model maps, reasoning profiles, private route diagnostics, project policies, bounded requests and isolated failure cooldowns. A disposable Codex client verifies the `503 → 200` recovery path; real-provider acceptance remains a separate opt-in check.
-
-[Routing controls](https://github.com/teo-nex/jew-codex-harness#managing-an-installed-profile) · [Verification scope](https://github.com/teo-nex/jew-codex-harness/blob/main/docs/CI.md)
-
-New Jev work: [guarded coding workers #6](https://github.com/teo-nex/jew-codex-harness/pull/6), [30-minute idle compaction #10](https://github.com/teo-nex/jew-codex-harness/pull/10) and [manifest-bound worker authorization #11](https://github.com/teo-nex/jew-codex-harness/pull/11).
-
-Recent installation fixes: [Python discovery and installation on restricted/localized Windows hosts](https://github.com/teo-nex/jew-codex-harness/commit/7720d773e2804bd25599b19a66bc5755bbf594c4), plus [reloading the owned idle router after registering Jev](https://github.com/teo-nex/jew-codex-harness/commit/a8f17b151f72e799a1c2365df388dade9dd9db7f) so a fresh installation can route the newly advertised model.
-
-## Selected projects
-
-| Project | What it does | Stage |
-| --- | --- | --- |
-| [Canvas](https://github.com/howdeploy/CanvasTTY) | An infinite desktop for AI agents, with terminal orchestration and Even G2 smart-glasses integration. | Open source |
-| [Jew-codex-harness](https://github.com/teo-nex/jew-codex-harness) | Agent-led Codex installer with configurable provider/model order, reasoning profiles and guarded recovery. | Public alpha; live-provider acceptance pending |
-| Sky | AI coding harness focused on reducing token usage and development time. | In closed beta |
 
 <br />
 
